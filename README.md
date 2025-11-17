@@ -4,11 +4,13 @@
 
 ## Refresher
 
+You can store your neovim configurations independently from neovim, so long as ultimately that folder has the `init.lua` script.
+
 Neovim figures out what config folder you want to use by referencing the $NVIM_APPNAME variable.
 
 With this, you can change the config folder that neovim looks for by specifing a folder. 
 
-Store your configs at XDG_CONFIG_HOME, which for windows is `~/AppData/Local`, and `~` is your home directory.
+Store your config folders under XDG_CONFIG_HOME, which for windows is `~/AppData/Local`, whre `~` is your home directory.
 
 For profile switching with powershell in windows, use the script below, and save it at "C:\Users\<YOUR_USERNAME>\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" or wherever you want your powershell to look at before it loads
 then you can do:
