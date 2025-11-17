@@ -12,12 +12,15 @@ With this, you can change the config folder that neovim looks for by specifing a
 
 Store your config folders under XDG_CONFIG_HOME, which for windows is `~/AppData/Local`, whre `~` is your home directory.
 
-For profile switching with powershell in windows, use the script below, and save it at "C:\Users\<YOUR_USERNAME>\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" or wherever you want your powershell to look at before it loads
-then you can do:
+For profile switching with powershell in windows, use the script below, and save it at "C:\Users\<YOUR_USERNAME>\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" or wherever you want your powershell to look at before it loads.
 
-`nvims <enter_key` from your powershell window and pick which config folder you want nvim to use.
+Do:
 
-Alternatively, set up functions (the equivalent of aliases in linux and macOS) to swap out keywords and set the config folder you wanna use (see lines 1 - 6 of the script below)
+`nvims <enter_key>` from your powershell window and pick which config folder you want nvim to use.
+
+Alternatively, set up functions (the equivalent of aliases in linux and macOS) to swap out keywords and set the config folder you wanna use (see lines 1 - 6 of the script below). ie:
+
+`nvim-lazy` automatically will pull up lazyvim.
 
 ```pwsh
 # Aliases for different Neovim configurations
